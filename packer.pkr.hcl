@@ -10,7 +10,7 @@ variable "aws_secret_key" {
 
 variable "aws_region" {
   type    = string
-  default = env("AWS_REGION")
+  default = "us-east-2"
 }
 
 variable "source_ami_filter" {
